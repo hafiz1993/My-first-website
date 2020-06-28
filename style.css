@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to left bottom, #c9506a, #d35d3d, #c07900, #919700, #2bb006);
+}
+*{
+    box-sizing: border-box;
+}
+.logo{
+    width: 16px;
+    height: 16px;
+    padding:left: ;
+}
+
+.container
+{
+max-width: 1140px;
+margin: auto;
+position: relative;
+min-height:1px ;
+}
+.team
+{
+min-height: 100vh;
+padding: 60px 15px;
+background-repeat: no-repeat;
+}
+.team h1 {
+    text-align: center;
+    font-size: 50px;
+    color: linen;
+    font-family: arial;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.team .card 
+{
+width: 25%;
+float: left;
+padding: 0px 15px;
+
+}
+.team .card .box
+{
+padding: 15px;
+background-color: #e98009;
+border-radius: 5px;
+transition: margin 1s ease, box-shadow 1s ease;
+
+}
+.team .card .box:hover 
+{
+    margin-top:-15px;
+    box-shadow: 0px 0px 40px #83e46b;
+}
+.team .card .box img
+{
+width: 150px;
+display: block;
+margin: 10px auto;
+border-radius: 50%;
+
+}
+.team .card .box h4 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: arial;
+    margin: 15px 0px 10px;
+    color: lightyellow;
+    text-align: center;
+}
+.team .card .box p {
+    
+    text-align: justify;
+}
+
+@media (max-width 991px){
+    .tam .card{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
